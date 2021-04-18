@@ -1,0 +1,65 @@
+html {
+  background-color: var(--dark-hard);
+  color: #ffffff;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.community {
+  color: var(--community-color);
+}
+
+.user {
+  color: var(--user-color);
+}
+
+.dark-hard {
+  color: var(--dark-hard);
+}
+
+.dark-soft {
+  color: var(--dark-soft);
+}
+
+.white {
+  color: #ffffff;
+}
+
+.link {
+}
+
+.hover-spin {
+  transform: rotate(0deg);
+
+  -webkit-transition: all 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -moz-transition: all 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -ms-transition: all 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -o-transition: all 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hover-spin:hover {
+  transform: rotate(360deg);
+
+  -webkit-transition: all 3200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -moz-transition: all 3200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -ms-transition: all 3200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -o-transition: all 3200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 3200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+a {
+  color: #81c784;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}

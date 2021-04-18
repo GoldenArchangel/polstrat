@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+  --surface-a: #1e1e1e;
+  --surface-b: #121212;
+  --surface-c: rgba(255, 255, 255, 0.03);
+  --surface-d: #383838;
+  --surface-e: #1e1e1e;
+  --surface-f: #1e1e1e;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --primary-color: #81c784;
+  --primary-color-soft: #a7d8a9;
+  --primary-color-text: #212529;
+  --font-family: "Roboto Mono", monospace;
+  --font-size: 1rem;
+
+  --error-color: #ea5762;
+  --danger-color: #ea5762;
+  --info-color: #0067b3;
+  --warning-color: #b3b300;
+
+  --user-color: #0067b3;
+  --community-color: #b3b300;
+
+  --dark-hard: #121212;
+  --dark-soft: #1e1e1e;
+}
